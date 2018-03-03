@@ -1,0 +1,33 @@
+{
+    "name": "double-fist/phplint-config-psr",
+    "description": "A phplint config implementing the PSR-1 coding standard.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jannik Jochem",
+            "homepage": "https://www.github.com/fixpunkt"
+        },
+        {
+            "name": "Sven Münnich",
+            "homepage": "https://www.github.com/svenmuennich"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:double-fist/phplint.git"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "double-fist/phplint": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpLint\\Plugin\\DoubleFist\\Psr1\\": "src/Psr1",
+            "PhpLint\\Plugin\\DoubleFist\\Psr2\\": "src/Psr2"
+        }
+    }
+}
