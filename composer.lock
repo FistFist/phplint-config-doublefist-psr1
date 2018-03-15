@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/double-fist/phplint.git",
-                "reference": "27898c7f2c1baa018106d3d31efbbb2aba30da17"
+                "reference": "ebc4786e29e6088b333bc6fa315db587a6e01d19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/double-fist/phplint/zipball/27898c7f2c1baa018106d3d31efbbb2aba30da17",
-                "reference": "27898c7f2c1baa018106d3d31efbbb2aba30da17",
+                "url": "https://api.github.com/repos/double-fist/phplint/zipball/ebc4786e29e6088b333bc6fa315db587a6e01d19",
+                "reference": "ebc4786e29e6088b333bc6fa315db587a6e01d19",
                 "shasum": ""
             },
             "require": {
@@ -138,7 +138,7 @@
                 "source": "https://github.com/double-fist/phplint/tree/master",
                 "issues": "https://github.com/double-fist/phplint/issues"
             },
-            "time": "2018-03-05T20:45:57+00:00"
+            "time": "2018-03-15T21:32:17+00:00"
         },
         {
             "name": "myclabs/deep-copy",
