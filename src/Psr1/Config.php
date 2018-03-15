@@ -40,7 +40,7 @@ class Config extends AbstractConfigPlugin
             'class-constant-name' => 'error',
             'class-name' => 'error',
             'class-namespace' => 'error',
-            'method-names' => 'error',
+            'method-name' => 'error',
             'single-class-in-file' => 'error',
             'single-namespace-in-file' => 'error',
         ];
