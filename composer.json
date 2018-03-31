@@ -18,11 +18,16 @@
         {
             "type": "vcs",
             "url": "git@github.com:double-fist/phplint.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:double-fist/phplint-rules-psr.git"
         }
     ],
     "require": {
         "php": ">=7.0.0",
-        "double-fist/phplint": "dev-master"
+        "double-fist/phplint": "dev-master",
+        "double-fist/phplint-rules-psr": "dev-master"
     },
     "autoload": {
         "psr-4": {

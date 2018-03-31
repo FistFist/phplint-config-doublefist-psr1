@@ -28,7 +28,9 @@ class Config extends AbstractConfigPlugin
      */
     public function getPlugins(): array
     {
-        return [];
+        return [
+            'DoubleFist/Psr1Rules',
+        ];
     }
 
     /**
