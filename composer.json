@@ -22,6 +22,14 @@
         {
             "type": "vcs",
             "url": "git@github.com:double-fist/phplint-rules-psr.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:VIISON/composer-git-hooks-installer-plugin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:VIISON/style-guide.git"
         }
     ],
     "require": {
@@ -29,10 +37,25 @@
         "double-fist/phplint": "dev-master",
         "double-fist/phplint-rules-psr": "dev-master"
     },
+    "require-dev": {
+        "viison/style-guide": "^2"
+    },
     "autoload": {
         "psr-4": {
             "PhpLint\\Plugin\\DoubleFist\\Psr1\\": "src/Psr1",
             "PhpLint\\Plugin\\DoubleFist\\Psr2\\": "src/Psr2"
+        }
+    },
+    "scripts": {
+        "phpcs": "vendor/bin/phpcs -s -n .",
+        "phpcs:fix": "vendor/bin/phpcbf -s -n .",
+        "phplint": "echo \"Linting all PHP files...\"; LINT_RETURN=0; for FILE in $(find . -regex \".*\\.php\" -not -path \"./vendor/*\"); do if ! php -l \"$FILE\"; then LINT_RETURN=1; fi; done; exit $LINT_RETURN;"
+    },
+    "extra": {
+        "required-viison-git-hooks": {
+            "viison/style-guide": [
+                "shopware-plugin"
+            ]
         }
     }
 }
