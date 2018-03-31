@@ -1,6 +1,6 @@
 {
     "name": "double-fist/phplint-config-psr",
-    "description": "A phplint config implementing the PSR-1 coding standard.",
+    "description": "A phplint config plugin implementing the PSR-1 coding standard.",
     "type": "library",
     "license": "MIT",
     "authors": [
