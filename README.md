@@ -1,2 +1,2 @@
 # phplint-config-psr
-A phplint config implementing the PSR coding standards.
+A phplint config plugin implementing the PSR coding standards.
