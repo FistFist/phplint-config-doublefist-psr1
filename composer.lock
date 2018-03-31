@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/double-fist/phplint.git",
-                "reference": "3ab6e4645446dac19e814bc86cc004ebd70d0c6c"
+                "reference": "471f31337851e5cdf9b764dd1edfb176a7565bdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/double-fist/phplint/zipball/3ab6e4645446dac19e814bc86cc004ebd70d0c6c",
-                "reference": "3ab6e4645446dac19e814bc86cc004ebd70d0c6c",
+                "url": "https://api.github.com/repos/double-fist/phplint/zipball/471f31337851e5cdf9b764dd1edfb176a7565bdb",
+                "reference": "471f31337851e5cdf9b764dd1edfb176a7565bdb",
                 "shasum": ""
             },
             "require": {
@@ -99,7 +99,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "PhpLint\\": "src/PhpLint"
+                    "PhpLint\\": "src/PhpLint",
+                    "PhpLint\\TestHelpers\\Rules\\": "tests/PhpLint/TestHelpers/Rules"
                 }
             },
             "autoload-dev": {
@@ -139,7 +140,7 @@
                 "source": "https://github.com/double-fist/phplint/tree/master",
                 "issues": "https://github.com/double-fist/phplint/issues"
             },
-            "time": "2018-03-30T20:34:08+00:00"
+            "time": "2018-03-31T13:13:31+00:00"
         },
         {
             "name": "double-fist/phplint-rules-psr",
@@ -147,12 +148,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/double-fist/phplint-rules-psr.git",
-                "reference": "f317176c8046a815c624f6f63065e0ff6a450304"
+                "reference": "f69344035c2349e31a24dafcea3571bfd4f5cda8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/double-fist/phplint-rules-psr/zipball/f317176c8046a815c624f6f63065e0ff6a450304",
-                "reference": "f317176c8046a815c624f6f63065e0ff6a450304",
+                "url": "https://api.github.com/repos/double-fist/phplint-rules-psr/zipball/f69344035c2349e31a24dafcea3571bfd4f5cda8",
+                "reference": "f69344035c2349e31a24dafcea3571bfd4f5cda8",
                 "shasum": ""
             },
             "require": {
@@ -212,7 +213,7 @@
                 "source": "https://github.com/double-fist/phplint-rules-psr/tree/master",
                 "issues": "https://github.com/double-fist/phplint-rules-psr/issues"
             },
-            "time": "2018-03-31T13:16:37+00:00"
+            "time": "2018-03-31T13:25:23+00:00"
         },
         {
             "name": "myclabs/deep-copy",
